@@ -1,0 +1,21 @@
+vendors:
+- path: github.com/Microsoft/go-winio
+  rev: fff283ad5116362ca252298cfc9b95828956d85d
+- path: github.com/Sirupsen/logrus
+  rev: 3f603f494d61c73457fb234161d8982b9f0f0b71
+- path: github.com/coreos/go-systemd
+  rev: e97b35f834b17eaa82afe3d44715c34736bfa12b
+- path: github.com/davecgh/go-spew
+  rev: 346938d642f2ec3594ed81d874461961cd0faa76
+- path: github.com/docker/go-connections
+  rev: 7da10c8c50cad14494ec818dcdfb6506265c0086
+- path: github.com/docker/go-plugins-helpers
+  rev: 8af45ff6ad5b7608853de51133c33e6638b02134
+- path: github.com/pmezard/go-difflib
+  rev: 792786c7400a136282c1664665ae0a8db921c6c2
+- path: github.com/stretchr/testify
+  rev: 4d4bfba8f1d1027c4fdbe371823030df51419987
+- path: golang.org/x/net
+  rev: 61557ac0112b576429a0df080e1c2cef5dfbb642
+- path: golang.org/x/sys
+  rev: e24f485414aeafb646f6fca458b0bf869c0880a1
