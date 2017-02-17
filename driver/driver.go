@@ -35,6 +35,9 @@ func (d *BaseDriver) List(r volume.Request) volume.Response {
 // Get gets a specific volume.
 func (d *BaseDriver) Get(r volume.Request) volume.Response {
 	log.WithFields(log.Fields{"Name": r.Name}).Info("REQUEST: Get volume")
+	if r.Name == "bad" {
+		return volume.Response{Err: "not found"}
+	}
 	return volume.Response{Volume: &volume.Volume{Name: r.Name}}
 }
 
